@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgs/logo_robotics.png">
+    <title>Sistemas de Robótica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
+
+</head>
+<style>
+				* {
+					box-sizing: border-box;
+					}
+					.column {
+					float: left;
+					width: 33.33%;
+					padding: 5px;
+					}
+					.row::after {
+					content: "";
+					clear: both;
+					display: table;
+					}
+					.img1 {
+						text-align: center;
+						}
+					.img2{
+						  text-align: center;
+						}
+					.img3{
+						  text-align: center;
+						}
+</style>
+<body class="corpo">
+
+    <!--Barra de Navegação-->
+    <nav id="navbar-example2" class="navbar navbar-dark" style="background-color: rgb(0, 204, 255);">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://image.freepik.com/vetores-gratis/logotipo-do-robo-de-engrenagem_148584-6.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Sistemas de Robótica
+            </a>
+			
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#scrollspytoIntro">Introdução</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#scrollspytoMico">Mico</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#scrollspytoJaco">Jaco</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#scrollspytoBiblio">Bibliografia</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Corpo-->
+    <div class="container">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example my-5" tabindex="0">
+            <!--Introdução-->
+            <h2 id="scrollspytoIntro"><u>Introdução</u></h4>
+            <p>Vamos explicar e demonstrar dois robôs que pertecem à mesma empresa denominada Kinova, um deles é o Mico 6 DOF, e o outro é o Jaco 6 DOF.</p>
+			<p> Kinova é uma empresa de tecnologia canadense que fabrica plataformas e aplicativos de robótica de serviço para assistência pessoal, e foi fundada em 2006 por Charles Deguire e Louis-Joseph L'Écuyer.</p>
+           
+			<div class="row">
+				<div class="column">
+					<img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_256,w_256,f_auto,g_faces,z_0.7,q_auto:eco/v1435090408/x0mwcw9eguxmx5ztsrvo.jpg" style="width:50%">
+					<figcaption>Charles Deguire.</figcaption>
+				</div>
+				<div class="column">
+					<img src="https://s3.amazonaws.com/spoke-profiles-prod-assets/avatars/210x210h/58a535bd91cb1db503e9d865ba2ffe878ad10431.png" style="width:50%">
+					<figcaption>Louis-Joseph L'Écuyer.</figcaption>
+				</div>
+			</div>	
+			<div class="main">
+                <section>
+                    <p>O Braço Robótico Mico é um robô leve, composto por quatro ou seis segmentos interligados. O braço é alimentado por uma bateria de 24 Volts ou plug elétrico padrão. Este robô é a escolha perfeita para uma infinidade de aplicativos de robótica de serviço, especialmente em aplicativos de manipulação móvel. Dá a oportunidade  a muitos roboticistas para desenvolver a robótica pessoal, permitindo que sejam mais criativos do que nunca.</p>
+                    <p>O Mico 6 DOF, é constituído por três juntas prismáticas (X, Y, Z) e três juntas revolutas (Roll, Pitch, Yaw), daí o 6 DOF. Faz movimentos silenciosos e muito suaves graças aos seus seis graus de liberdade com rotação ilimitada em cada eixo. A estrutura de fibra de carbono oferece excelente resistência e durabilidade. Pode manusear objetos do dia-a-dia com segurança, utilizando os dois dedos mal acionados. Devido aos seis graus de liberdade, permite uma interação flexível, segura e eficaz em quase qualquer ambiente.</p>        
+                </section>
+                <section>
+					<p class="img1">
+                    <img  src="http://quanser-update.azurewebsites.net/quarc/documentation/kinova_6dof_mico_axes.gif" width="320" height="220">
+					</p>
+					
+						
+						
+                </section>
+            </div>
+            <div class="main">
+                <section>
+				     <p> O braço robótico auxiliar Kinova ® Jaco ®  melhora a qualidade de vida de todos: os usuários ganham autonomia para atingir seu potencial e os terapeutas ocupacionais podem se concentrar mais na qualidade do atendimento.
+
+Projetado para se integrar totalmente à sua vida diária e para ser montado em uma cadeira de rodas motorizada, nosso braço robótico exclusivo, conhecido em todo o mundo como 'Jaco', está ajudando pessoas com mobilidade limitada ou nenhuma dos membros superiores a alcançar o que antes era impossível.</p>
+                    <p>O braço robótico auxiliar Kinova Jaco apresenta movimentos de 6 eixos correspondentes ao ombro, cotovelo e pulso, permitindo 16 movimentos ao todo para imitar a suavidade e versatilidade de um braço humano em pleno funcionamento. Monte-o em sua cadeira de rodas motorizada e assuma o controle total usando o joystick da cadeira, controle de cabeça, gole e puff, sistema de matriz de cabeça ou quase qualquer outra interface, em combinação.</p>
+                    
+                </section>
+                <section>
+				         <p class="img2">    
+                        <img src="https://images.squarespace-cdn.com/content/v1/5a05fe6bbce176ec6f4d0767/1553053034914-38X2K6VT2CE2YN22VSBU/ke17ZwdGBToddI8pDm48kLoTzVOii8YLxFPgsq8bJCB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hZPx-jNbZA_TaS-5l2nNKFGcqkiPA2avR7HxzWaoKvg69PdIk0ofeqU4WPRM8NnlQ/jaco.jpg?format=2500w" width="320" height="220">
+						</p>
+                </section>
+            </div>
+            
+            <!--Mico-->
+            <h2 id="scrollspytoMico"><u>Mico</u></h4>
+            <p>O Mico 6 DOF (graus de liberdade) pesa 4,6 kg e tem um alcance de 70 cm. O alcance médio contínuo da carga útil máxima é de 2,1 kg. O alcance de pico total / temporário é de 1,5 kg. Ele consome até 100 watts de potência. Potência média de 25W e standby de 5 W. </p>
+            <p>A velocidade máxima é de 20cm / s, podendo trabalhar em temperaturas de -10 ° C a 40 ° C. É composto por 6 atuadores, dois pulsos, um braço, um antebraço, um cotovelo, uma pata, dois dedos, um ombro, um anel de plástico e um controlador, conforme mostrado na figura.</p>
+			<div class="main">
+                              
+				<section>
+					<p class="img3">  
+                    <img src="./media/mico.PNG" width="350" height="250">
+					</p>
+				</section>
+            </div>
+            <div class="main">
+				<p>Estes são os parâmetros geométricos básicos do Mico 6DOF. A diferença do Mico 4DOF são os parâmetros D4 e D5, que não o fazem. Ele também possui parâmetros geométricos alternativos que podem ser usados ​​para descrever a geometria cinemática da configuração de pulso da curva de 6 DOF.</p>
+                <section>
+                    <div class="row">
+					<div class="column">
+						<img src="trabalhoSR/mico4parametros.jpg" style="width:100%">
+						<figcaption>Mico 4DOF.</figcaption>
+					</div>
+					<div class="column">
+						<img src="trabalhoSR/mico6parametros.jpg" style="width:100%">
+						<figcaption>Mico 6DOF.</figcaption>
+					</div>
+			</div>	
+                </section>
+                
+            </div>
+            <div class="main">
+                <section>
+                    
+                    <p>A cinemática para este tipo de pulso é mais complicada do que para um pulso esférico, devido à geometria mais complicada. Para simplificar a análise, é útil dividir cada um dos dois segmentos curvos do punho em dois subsegmentos de linha reta componentes de igual comprimento, com o segundo subsegmento a um ângulo de 60° do primeiro.</p>
+                    <p>Assim, o braço, do cotovelo para o centro da mão, pode ser analisado como três segmentos de linha reta, o d4b, o d5b e o d6b.</p>
+                </section>
+                <section>
+                    <img src="imgs/parametrosAlternativosMico.JPG" width="320" height="220">
+                </section>
+            </div>
+            <p>Os parâmetros DH para a parte inferior do braço robótico são mais naturalmente expressos em termos desses parâmetros alternativos.</p>
+            <div class="main">
+                <section>
+                    <img src="imgs/parametrosDHMico.JPG" width="320" height="220">
+                </section>
+                <section>
+                    <p class="espaço px-3">Apartir dos parâmetros alternativos, obtemos, então, os parâmetros DH (Denavit-Hartenberg).</p>
+                </section>
+            </div>
+            <!--Comandos do Mico-->
+            <h4 class="space px-3">Comandos do Mico:</h4>
+            <p class="espaço px-3">Para a parte prática do Mico fomos ao github buscar o código do Mico (mdl_mico.m) e corremos o código.</p>
+            <div class="main">
+                <section>
+                    <p class="espaço px-3">Para mostrar as caraterísticas do robô, isto é, os parâmetros DH, utilizou-se o seguinte comando:</p>
+                    <p class="espaço px-3">>> mico</p>
+                    <p class="espaço px-3">Se observarmos a tabela anterior, juntamente com esta, vemos que os valores dizem respeito à junção da tabela dos parâmetros geométricos básicos do Mico 6DOF e da tabela dos parâmetros geométricos alternativos.</p>
+                </section>
+                <section>
+                    <img src="C:\Users\Utilizador\OneDrive\Ambiente de Trabalho" width="320" height="220">
+                </section>
+            </div>
+            <div class="main">
+                <section>
+                    <video width="320" height="220" controls loop>
+                        <source src="C:\Users\Utilizador\OneDrive\Documentos\videos/mico.mp4" type="video/mp4">
+                    </video>
+                </section>
+                <section>
+                    <p class="espaço px-3">No vídeo vemos o Mico na posição de zero ângulos a plotar para a posição com o braço direito e vertical, isto foi conseguido devido a utilizarmos a seguinte sequência de comandos:</p>
+                    <p class="espaço px-3">>> mico.plot(qz)</p>
+                    <p class="espaço px-3">>> mico.plot(qr)</p>
+                </section>
+            </div>
+            <p class="espaço px-3">De modo a a calcularmos a cinemática direta para uma sequência de parâmetros específicos, utilizámos duas maneira diferentes, observemos então o primeiro exemplo:</p>
+            <div class="main">
+                <section>
+                    <p class="espaço px-3">>> mico.fkine([0 0 0 0 0 0])</p>
+                    <p class="espaço px-3">Nesta tabela, observamos que quando os parâmetros q1 a q6 estão a 0, os valores a vermelho são o x, y e z, respetivamente.</p>
+                </section>
+                <section>
+                    <img src="imgs/fkine000000Mico.JPG" width="350" height="220">
+                </section>
+            </div>
+            <div class="main">
+                <section>
+                    <img src="imgs/teachMico.JPG" width="320" height="220">
+                </section>
+                <section>
+                    <p class="espaço px-3">Aqui vemos se os valores estão corretos, ou seja, se os valores x, y e z, que estão na tabela anterior, correspondem aos valores x, y e z, da tabela do teach, o que foi possível observar, pelo comando:</p>
+                    <p class="espaço px-3">>> mico.teach()</p>
+                </section>
+            </div>
+            <p class="espaço px-3">Agora observemos para outro exemplo:</p>
+            <div class="main">
+                <section>
+                    <p class="espaço px-3">>> mico.fkine([0 0 pi/2 0 0 pi/2])</p>
+                    <p class="espaço px-3">Nesta tabela, observamos que para estes parâmetros, os valores a vermelho, x, y e z, são diferentes dos anteriores.</p>
+                </section>
+                <section>
+                    <img src="imgs/fkine2Mico.JPG" width="350" height="220">
+                </section>
+            </div>
+            <div class="main">
+                <section>
+                    <video width="320" height="220" controls loop>
+                        <source src="vids/fkineQ3Q6Mico.mp4" type="video/mp4">
+                    </video>
+                </section>
+                <section>
+                    <p class="espaço px-3">Como vemos no vídeo, os valores x, y e z, não estavam corretos, sendo, por isso, neste exemplo de cinemática direta, necessário colocar os parâmetros q3 e q6 a 90°, e, assim, já conseguimos observar que os valores x, y e z, se encontram corretos, relativamente à tabela anterior, e o robô ficou com uma posição diferente.</p>
+                </section>
+            </div>
+            <p class="espaço px-3">Quanto à cinemática inversa, não é possível calcular, visto que, o Mico 6 DOF não apresenta pulso esférico, por esse motivo, a cinemática inversa ainda não é perfeita, devido ao acoplamento entre a posição e a orientação do end-effector.</p>
+            <!--Jaco-->
+            <h2 id="scrollspytoJaco"><u>Jaco</u></h4>
+            <p>O Sawyer tem 7 DOF (Degrees Of Freedom), pesa 19kg, tem um alcance de 126cm, possui carga útil máxima de 4kg, consome 700W de energia, a velocidade máxima é 2m/seg, a velocidade típica de tarefa é 1m/seg e pode operar em temperaturas dos 0°C aos 40°C, com 80% de humidade relativa.</p>
+            <div class="main">
+                <section>
+                    <p>De modo a conhecermos o Sawyer melhor, vejamos a sua constituição, onde este é constituído por vários elementos, como observamos na figura:</p>
+                    <p>1. Condição da luz</p>
+                    <p>2. Câmera principal</p>
+                    <p>3. Display</p>
+                    <p>4. Navegador (Base)</p>
+                    <p>5. Navegador (Braço)</p>
+                    <p>6. Câmera</p>
+                    <p>7. Braçadeira de treino com luz</p>
+                    <p>8. Alça de pedestal</p>
+                    <p>9. Pedestal</p>
+                    <p>10. Controlador</p>
+                    <p>11. Pés niveladores</p>
+                </section>
+                <section>
+                    <img src="imgs/componentesSawyer.JPG" width="320" height="450">
+                </section>
+            </div>
+            <p>Quando se diz que tem um design amigável, é porque no display tem uma cara, com isto, traz uma diversidade de expressões faciais.</p>
+            <div class="main">
+                <section>
+                    <img src="imgs/neutra.JPG" width="320" height="220">
+                </section>
+                <section>
+                    <p class="espaço px-3">A primeira expressão é a <b>Neutra</b>, onde o Sawyer está à espera para fazer uma tarefa.</p> 
+                </section>
+            </div>
+            <div class="main">
+                <section>
+                    <p>A segunda expressão é a <b>Concentrada</b>, onde o Sawyer está concentrado na execução de uma tarefa e olha para o lado para ver a próxima.</p>
+                </section>
+                <section>
+                    <img src="imgs/concentrada.JPG" width="320" height="220">
+                </section>
+            </div>
+            <div class="main">
+                <section>
+                    <img src="imgs/confusa.JPG" width="320" height="220">
+                </section>
+                <section>
+                    <p class="espaço px-3">Nesta expressão, denominada <b>Confusa</b>, o Sawyer aparenta alguém que não está a conseguir encontrar uma parte da tarefa ou não está a conseguir completar o próximo passo.</p>
+                </section>
+            </div>
+            <div class="main">
+                <section>
+                    <p>Esta expressão, denominada <b>Surpresa</b>, é como se algo o tivesse assustado, como por exemplo, o botão, para ligar e desligar, tivesse sido desligado ou alguém entrou no seu espaço de trabalho.</p>
+                </section>
+                <section>
+                    <img src="imgs/surpresa.JPG" width="320" height="220">
+                </section>
+            </div>
+            <div class="main">
+                <section>
+                    <img src="imgs/triste.JPG" width="320" height="220">
+                </section>
+                <section>
+                    <p class="espaço px-3">Nesta expressão, o Sawyer encontra-se, infelizmente, <b>Triste</b>, ou seja, está a ser desligado, está a ir dormir ou o botão e-stop, isto é, um botão que pode ser usado em caso de emergência para remover a energia dos atuadores do Sawyer, foi pressionado.</p>
+                </section>
+            </div>
+            <div class="main">
+                <section>
+                    <p>Por fim, temos a expressão <b>Dormir</b>, onde o Sawyer foi posto no modo dormir e encontra-se num transe entre tarefas.</p>
+                </section>
+                <section>
+                    <img src="imgs/dormir.JPG" width="320" height="220">
+                </section>
+            </div>
+            <!--Comandos do Jaco--> 
+            <h4 class="space px-3">Comandos do Jaco:</h4>
+            <p class="espaço px-3">Para a parte prática do Sawyer fomos ao github buscar o código do Sawyer (mdl_sawyer.m) e corremos o código.</p>
+            <div class="main">
+                <section>
+                    <p class="espaço px-3">Para mostrar as caraterísticas do robô, isto é, os parâmetros DH, utilizou-se o seguinte comando:</p>
+                    <p class="espaço px-3">>> sawyer</p>
+                </section>
+                <section>
+                    <img src="imgs/matlabDHSawyer.JPG" width="400" height="220">
+                </section>
+            </div>
+            <div class="main">
+                <section>
+                    <video width="320" height="220" controls loop>
+                        <source src="C:\Users\Utilizador\OneDrive\Documentos\videos/mico.mp4" type="video/mp4">
+                    </video>
+                </section>
+                <section>
+                    <p class="espaço px-3">No vídeo vemos o Sawyer na posição de zero ângulos a plotar para a posição com o braço ao longo de +ve, no eixo dos xx.</p>
+                    <p class="espaço px-3">>> sawyer.plot(qz)</p>
+                    <p class="espaço px-3">>> sawyer.plot(qr)</p>
+                </section>
+            </div>
+            <p class="espaço px-3">De modo a calcularmos a cinemática direta para o Sawyer, utilizámos, também, duas maneiras diferentes, observemos então o primeiro exemplo:</p>
+            <div class="main">
+                <section>
+                    <p class="espaço px-3">>> sawyer.fkine([0 0 0 0 0 0 0])</p>
+                    <p class="espaço px-3">Esta cinemática direta, só pelo comando, difere do Mico, visto que, apresenta 7 DOF, por isso é que temos 7 zeros em vez de 6.</p>
+                    <p class="espaço px-3">Na tabela, observamos que quandos todos os parâmetros se encontram a 0, os valores a vermelho são o x, y e z, respetivamente.</p>
+                </section>
+                <section>
+                    <img src="imgs/fkine0000000Sawyer.JPG" width="350" height="220">
+                </section>
+            </div>
+            <div class="main">
+                <section>
+                    <img src="imgs/teachSawyer.JPG" width="320" height="220">
+                </section>
+                <section>
+                    <p class="espaço px-3">Agora vemos se os valores estão corretos, ou seja, se os valores x, y e z, apresentados na tabela anterior, correspondem aos valores x, y e z, da tabela do teach, o que foi possível observar, pelo comando:</p>
+                    <p class="espaço px-3">>> sawyer.teach()</p>
+                </section>
+            </div>
+            <p class="espaço px-3">No segundo exemplo, temos:</p>
+            <div class="main">
+                <section>
+                    <p class="espaço px-3">>> sawyer.fkine([0 0 pi/2 0 0 pi/2 0])</p>
+                    <p class="espaço px-3">Na tabela, é possível observar que para estes parâmetros, os valores a vermelho, x, y e z, são diferentes dos anteriores.</p>
+                </section>
+                <section>
+                    <img src="imgs/fkine2Sawyer.JPG" width="350" height="220">
+                </section>
+            </div>
+            <div class="main">
+                <section>
+                    <video width="320" height="220" controls loop>
+                        <source src="vids/fkineQ3Q6Sawyer.mp4" type="video/mp4">
+                    </video>
+                </section>
+                <section>
+                    <p class="espaço px-3">Como vemos no vídeo, os valores x, y e z, de modo a ficarem iguais aos que deram como resultado na tabela anterior, necessitámos de mudar os parâmetros q3 e q6 para 90°, sendo posteriormente possível a visualização de valores x, y e z, corretos e, ainda, um robô numa posição diferente, para a correta cinemática direta.</p>
+                </section>
+            </div>
+            <p class="espaço px-3">Infelizmente não foi possível demonstrar a cinemática inversa, visto que não encontrámos nada para este robô com sete graus de liberdade.</p>
+            <p class="espaço px-3">Espero que tenha gostado!</p>
+            <!--Bibliografia-->
+            <h2 id="scrollspytoBiblio"><u>Bibliografia</u></h2>
+            <p>[1] <a href="https://www.kinovarobotics.com/sites/default/files/ULWS-RA-MIC-UG-INT-EN%20201804-1.0%20%28KINOVA%20MICO%E2%84%A2%20Robotic%20arm%20user%20guide%29_0.pdf">KINOVA MICO Robotic arm user guide</a></p>
+            <p>[2] <a href="https://sceweb.sce.uhcl.edu/harman/A_CRS_ROS_SeminarDay3/UNIT3_3_SAWYER/3_3_1_160219_Sawyer_Advanced_Specs_Non_Confidential.pdf">3_3_1_160219_Sawyer_Advanced_Specs_Non_Confidential</a></p>
+            <p>[3] <a href="https://learn.skillman.eu/pluginfile.php/1195/mod_resource/content/0/Intera_5_User_Guide_Getting_Started_20170302_RevB.pdf">Intera_5_User_Guide_Getting_Started_20170302_RevB</a></p>
+            <p>[4] <a href="https://vdocuments.site/sawyer-user-guide.html">vdocuments.site_sawyer-user-guide</a></p>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgb(0, 204, 255;">
+            © 2021 Copyright:
+            <a class="texto" href="#">20160403 - Filipe Carrilho; 30000927 - Tomas Duarte; 30003069 Zacarias - Chiena </a> 
+        </div>
+    </footer>
+</body>
+</html>
